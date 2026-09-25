@@ -1,0 +1,13 @@
+# Historia i pliki tymczasowe R
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+
+# Pliki projektowe RStudio
+*.Rproj
+.Rproj.user/
+
+# Pliki systemowe (np. macOS, Windows)
+.DS_Store
+Thumbs.db
