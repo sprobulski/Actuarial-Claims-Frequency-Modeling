@@ -3,6 +3,12 @@
 ## Project Overview
 This project focuses on predictive modeling of insurance claim frequency using the `freMTPL2freq` dataset. The primary goal is to develop and thoroughly evaluate robust actuarial pricing models. The workflow utilizes custom loss functions (e.g., Poisson and Gamma deviance), manual hyperparameter optimization with early stopping, and advanced actuarial evaluation metrics.
 
+## Documentation & Presentation
+The repository includes a comprehensive presentation (`presentation/Actuarial_Modeling_Presentation.pdf`) that provides:
+* **Theoretical Background:** Mathematical formulations of the evaluated algorithms.
+* **Implementation Details:** A breakdown of the cross-validation, early stopping, and parametric bootstrap procedures.
+* **Results Analysis:** A visual and quantitative comparison of the models.
+
 ## Key Features & Methodology
 * **Algorithms Implemented:** Null Model, Poisson GLM, Random Forest (with Parametric Bootstrap), Response Boosting, Gradient Boosting, XGBoost, and an Ensemble model.
 * **Custom Implementations:** 
